@@ -1,0 +1,95 @@
+.css-sox5kk-MuiBackdrop-root {
+  background-color: #0000000f !important;
+}
+
+.MuiButton-root:focus {
+  box-shadow: none;
+}
+/* .MuiButton-root:hover {
+  background-color: transparent;
+} */
+.MuiButton-outline:hover {
+  background-color: transparent !important;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #a3b0b4;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.button1 {
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: left; */
+}
+
+.button2 {
+  color: rgb(197, 29, 29);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 10px;
+}
+
+.button3 {
+  color: rgb(14, 13, 13);
+  font-size: 20px;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+
+.MuiDialogContent-root {
+  padding: 10px;
+}
+
+#form-dialog-title {
+  margin-left: 73px;
+}
+
+.imageClick {
+  padding: 0px;
+  margin-left: -10px;
+}
+
+.detailsUpdate:hover {
+  background-color: blue;
+}
